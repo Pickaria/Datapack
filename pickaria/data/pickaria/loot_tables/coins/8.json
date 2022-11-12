@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Name: '{\"italic\":false,\"text\":\"Crédits\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Piece d\\\\u0027une valeur de 8.0 chacune.\"}']}, PublicBukkitValues: {\"pickariaeconomy:coin\": 8.0d}, Enchantments: [{id: \"pickariashared:enchantment\", lvl: 1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

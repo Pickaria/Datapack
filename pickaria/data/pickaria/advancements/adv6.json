@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Niveau maximum"
+        },
+        "description": {
+            "text": "Vous avez atteint le niveau maximum dans un métier."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Maximum level": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pickaria:adv4"
+}

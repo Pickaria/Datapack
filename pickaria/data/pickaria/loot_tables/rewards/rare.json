@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:echo_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enchant_randomly",
+              "enchantments": [
+                "protection"
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"light_purple\",\"text\":\"\u00c9clat de Pickarite\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Fragment ancestral issu de la\"}', '{\"italic\":false,\"color\":\"gray\",\"text\":\"cr\u00e9ation du monde de Pickaria.\"}']}, PublicBukkitValues: {\"pickariashard:pickarite\": 1b}, Enchantments: [{id: \"pickariashared:enchantment\", lvl: 1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:copper_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 30
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 5.0
+      }
+    }
+  ]
+}

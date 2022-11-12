@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Rejoindre un métier"
+        },
+        "description": {
+            "text": "Les métiers sont un exéllent moyen de gagner de l'argent."
+        },
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Join job": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pickaria:root"
+}

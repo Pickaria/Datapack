@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_shulker_box",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{PublicBukkitValues: {\"pickariareward:reward\": \"uncommon\"}, HideFlags: 3, display: {Name: '{\"italic\":false,\"color\":\"purple\",\"text\":\"Récompense épique\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
