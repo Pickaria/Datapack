@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display: {Name: '{\"italic\":false,\"text\":\"Crédits\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Piece d\\\\u0027une valeur de 8.0 chacune.\"}']}, PublicBukkitValues: {\"pickariaeconomy:coin\": 8.0d}, Enchantments: [{id: \"pickariashared:enchantment\", lvl: 1s}]}"
+              "tag": "{display: {Name: '{\"italic\":false,\"text\":\"Crédits\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Piece d\\\\u0027une valeur de 8.0 chacune.\"}']}, PublicBukkitValues: {\"pickariaeconomy:value\": 8.0d, \"pickariaeconomy:currency\": \"default\"}, Enchantments: [{id: \"pickariashared:enchantment\", lvl: 1s}]}"
             }
           ]
         }

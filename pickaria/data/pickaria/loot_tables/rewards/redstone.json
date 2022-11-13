@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 9,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_lamp"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_torch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeater"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:comparator"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sticky_piston"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dispenser"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:observer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 1,
+            "max": 16
+          }
+        }
+      ]
+    }
+  ]
+}
