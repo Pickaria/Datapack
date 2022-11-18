@@ -151,9 +151,10 @@
           ]
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:tag",
           "weight": 100,
-          "name": "minecraft:white_wool",
+          "name": "minecraft:wool",
+          "expand": false,
           "functions": [
             {
               "function": "minecraft:set_count",
