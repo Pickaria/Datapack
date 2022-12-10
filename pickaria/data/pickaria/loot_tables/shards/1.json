@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"gold\",\"text\":\"Éclat de Pickarite\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Fragment ancestral issu de la\"}', '{\"italic\":false,\"color\":\"gray\",\"text\":\"création du monde de Pickaria.\"}']}, PublicBukkitValues: {\"pickariaeconomy:currency\": \"shards\", \"pickariaeconomy:value\": 1.0d}, Enchantments: [{id: \"pickarialib:enchantment\", lvl: 1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

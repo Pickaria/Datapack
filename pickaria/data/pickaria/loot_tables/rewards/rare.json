@@ -27,7 +27,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"light_purple\",\"text\":\"\u00c9clat de Pickarite\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Fragment ancestral issu de la\"}', '{\"italic\":false,\"color\":\"gray\",\"text\":\"cr\u00e9ation du monde de Pickaria.\"}']}, PublicBukkitValues: {\"pickariashard:pickarite\": 1b}, Enchantments: [{id: \"pickariashared:enchantment\", lvl: 1s}]}"
+              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"light_purple\",\"text\":\"\u00c9clat de Pickarite\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Fragment ancestral issu de la\"}', '{\"italic\":false,\"color\":\"gray\",\"text\":\"cr\u00e9ation du monde de Pickaria.\"}']}, PublicBukkitValues: {\"pickariashard:pickarite\": 1b}, Enchantments: [{id: \"pickarialib:enchantment\", lvl: 1s}]}"
             }
           ]
         },

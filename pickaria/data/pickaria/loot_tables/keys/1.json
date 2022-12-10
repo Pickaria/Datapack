@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"gold\",\"text\":\"Clé\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Objet permettant l\\\\u0027achat de récompenses\"}']}, PublicBukkitValues: {\"pickariaeconomy:currency\": \"keys\", \"pickariaeconomy:value\": 1.0d}, Enchantments: [{id: \"pickarialib:enchantment\", lvl: 1s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
