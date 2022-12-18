@@ -2,105 +2,174 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": {
+        "min": 7,
+        "max": 9
+      },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:echo_shard",
-          "weight": 1,
+          "type": "minecraft:loot_table",
+          "weight": 150,
+          "name": "pickaria:keys/1",
           "functions": [
             {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "protection"
-              ]
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"light_purple\",\"text\":\"\u00c9clat de Pickarite\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"text\":\"Fragment ancestral issu de la\"}', '{\"italic\":false,\"color\":\"gray\",\"text\":\"cr\u00e9ation du monde de Pickaria.\"}']}, PublicBukkitValues: {\"pickariashard:pickarite\": 1b}, Enchantments: [{id: \"pickarialib:enchantment\", lvl: 1s}]}"
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 15,
+                "max": 25
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:ancient_debris",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 8,
+                "max": 16
+              }
             }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 20
+          ]
         },
         {
           "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:diamond",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 24,
+                "max": 35
+              }
             }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 10
+          ]
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:copper_ingot",
-          "weight": 5
+          "weight": 150,
+          "name": "minecraft:nether_star"
         },
         {
           "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 250,
+          "name": "minecraft:wither_rose",
           "functions": [
             {
-              "add": false,
+              "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "min": 5,
+                "max": 10
+              }
             }
-          ],
-          "name": "minecraft:coal",
-          "weight": 30
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 250,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:conduit"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 250,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 48,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:anvil",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:ender_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 150,
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:elytra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "pickaria:shards/1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 5.0
-      }
+      ]
     }
   ]
 }
