@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{PublicBukkitValues: {\"pickariareward:reward\": \"uncommon\"}, HideFlags: 3, display: {Name: '{\"italic\":false,\"color\":\"purple\",\"text\":\"Récompense épique\"}'}}"
+              "tag": "{PublicBukkitValues: {\"pickaria:reward\": \"uncommon\"}, HideFlags: 3, display: {Name: '{\"italic\":false,\"color\":\"purple\",\"text\":\"Récompense épique\"}'}}"
             }
           ]
         }

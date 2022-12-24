@@ -2,23 +2,23 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Rejoindre une ville"
+            "text": "9 vies"
         },
         "description": {
-            "text": "Vivre en société aide grandement."
+            "text": "Réaliser 9 ascensions"
         },
         "icon": {
-            "item": "minecraft:white_banner"
+            "item": "minecraft:salmon"
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "Join town": {
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pickaria:root"
+    "parent": "pickaria:ascend"
 }

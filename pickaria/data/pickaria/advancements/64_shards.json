@@ -2,23 +2,23 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Rejoindre un métier"
+            "text": "Sacoche pleine"
         },
         "description": {
-            "text": "Les métiers sont un exéllent moyen de gagner de l'argent."
+            "text": "Avoir 1 stack de pickarite"
         },
         "icon": {
-            "item": "minecraft:wooden_pickaxe"
+            "item": "minecraft:bubble_coral"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
-        "announce_to_chat": false,
+        "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "Join job": {
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pickaria:root"
+    "parent": "pickaria:first_shard"
 }

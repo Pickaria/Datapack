@@ -2,23 +2,23 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Niveau maximum"
+            "text": "Millionnaire"
         },
         "description": {
-            "text": "Vous avez atteint le niveau maximum dans un métier."
+            "text": "Avoir un million de crédits sur son compte bancaire"
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:gold_ingot"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "Maximum level": {
+        "impossible": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pickaria:adv4"
+    "parent": "pickaria:first_credit"
 }

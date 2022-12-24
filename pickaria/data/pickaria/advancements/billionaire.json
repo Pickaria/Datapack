@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Milliardaire"
+        },
+        "description": {
+            "text": "Avoir un milliard de crédits sur son compte bancaire"
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pickaria:millionaire"
+}

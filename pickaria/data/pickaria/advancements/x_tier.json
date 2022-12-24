@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "X tier",
+            "obfuscated": true
+        },
+        "description": {
+            "text": "Avoir réalisé 192 ascensions"
+        },
+        "icon": {
+            "item": "minecraft:netherite_chestplate"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pickaria:s_tier"
+}
