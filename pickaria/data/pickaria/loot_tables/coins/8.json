@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"gold\",\"text\":\"Crédit\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\".\"}],\"text\":\"8.00 crédit\"}],\"text\":\"Pièce d\\\\u0027une valeur de \"}']}, PublicBukkitValues: {\"pickaria:currency\": \"default\", \"pickaria:value\": 8.0d}, Enchantments: [{id: \"pickaria:enchantment\", lvl: 1s}]}"
+              "tag": "{display: {Name: '{\"italic\":false,\"color\":\"gold\",\"text\":\"Crédit\"}', Lore: ['{\"italic\":false,\"color\":\"gray\",\"extra\":[{\"color\":\"gold\",\"extra\":[{\"color\":\"gray\",\"text\":\".\"}],\"text\":\"8.00 crédit\"}],\"text\":\"Pièce d\\\\u0027une valeur de \"}']}, PublicBukkitValues: {\"pickaria:currency\": \"credits\", \"pickaria:value\": 8.0d}, Enchantments: [{id: \"pickaria:enchantment\", lvl: 1s}]}"
             }
           ]
         }
