@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 7,
-        "max": 9
+        "min": 3,
+        "max": 5
       },
       "entries": [
         {
@@ -16,7 +16,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 15,
-                "max": 25
+                "max": 20
               }
             }
           ]
@@ -29,8 +29,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
-                "max": 16
+                "min": 4,
+                "max": 8
               }
             }
           ]
@@ -158,16 +158,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 50,
-          "name": "pickaria:shards/1",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "pickaria:shards/1"
         }
       ]
     }
